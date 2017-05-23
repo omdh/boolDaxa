@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020B16BC1ED3849500F34E18 /* boolDaxa.h in Headers */ = {isa = PBXBuildFile; fileRef = 020B16BA1ED3849500F34E18 /* boolDaxa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		020B16CF1ED385A900F34E18 /* BoolSetIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C21ED385A900F34E18 /* BoolSetIndex.swift */; };
+		020B16D01ED385A900F34E18 /* BoolSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C31ED385A900F34E18 /* BoolSet.swift */; };
+		020B16D11ED385A900F34E18 /* BoolSetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C41ED385A900F34E18 /* BoolSetAlgebra.swift */; };
+		020B16D21ED385A900F34E18 /* BoolSetSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C51ED385A900F34E18 /* BoolSetSequence.swift */; };
+		020B16D31ED385A900F34E18 /* BoolSetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C61ED385A900F34E18 /* BoolSetCollection.swift */; };
+		020B16D41ED385A900F34E18 /* BoolSetIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C71ED385A900F34E18 /* BoolSetIterator.swift */; };
+		020B16D51ED385A900F34E18 /* BoolSetSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C81ED385A900F34E18 /* BoolSetSlice.swift */; };
+		020B16D61ED385A900F34E18 /* MutableBoolSetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C91ED385A900F34E18 /* MutableBoolSetCollection.swift */; };
+		020B16D91ED385A900F34E18 /* ExpressibleBySignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CC1ED385A900F34E18 /* ExpressibleBySignedInteger.swift */; };
+		020B16DA1ED385A900F34E18 /* BitshiftOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CD1ED385A900F34E18 /* BitshiftOperations.swift */; };
+		020B16DB1ED385A900F34E18 /* FixedWidthInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CE1ED385A900F34E18 /* FixedWidthInteger.swift */; };
+		020B16E91ED3950E00F34E18 /* boolDaxa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020B16B71ED3849500F34E18 /* boolDaxa.framework */; };
+		020B16F21ED3955B00F34E18 /* BoolSetInt8Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16F01ED3955B00F34E18 /* BoolSetInt8Testing.swift */; };
+		020B16F41ED3D87A00F34E18 /* BoolSetIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C21ED385A900F34E18 /* BoolSetIndex.swift */; };
+		020B16F51ED3D87C00F34E18 /* BoolSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C31ED385A900F34E18 /* BoolSet.swift */; };
+		020B16F61ED3D87F00F34E18 /* BoolSetAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C41ED385A900F34E18 /* BoolSetAlgebra.swift */; };
+		020B16F71ED3D88100F34E18 /* BoolSetSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C51ED385A900F34E18 /* BoolSetSequence.swift */; };
+		020B16F81ED3D88400F34E18 /* BoolSetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C61ED385A900F34E18 /* BoolSetCollection.swift */; };
+		020B16F91ED3D88600F34E18 /* BoolSetSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C81ED385A900F34E18 /* BoolSetSlice.swift */; };
+		020B16FA1ED3D88800F34E18 /* BoolSetIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C71ED385A900F34E18 /* BoolSetIterator.swift */; };
+		020B16FB1ED3D88A00F34E18 /* MutableBoolSetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16C91ED385A900F34E18 /* MutableBoolSetCollection.swift */; };
+		020B16FF1ED3D89600F34E18 /* BitshiftOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CD1ED385A900F34E18 /* BitshiftOperations.swift */; };
+		020B17001ED3D89900F34E18 /* ExpressibleBySignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CC1ED385A900F34E18 /* ExpressibleBySignedInteger.swift */; };
+		020B17011ED3D89B00F34E18 /* FixedWidthInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020B16CE1ED385A900F34E18 /* FixedWidthInteger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020B16EA1ED3950E00F34E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020B16AE1ED3849500F34E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020B16B61ED3849500F34E18;
+			remoteInfo = boolDaxa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020B16B71ED3849500F34E18 /* boolDaxa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = boolDaxa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		020B16BA1ED3849500F34E18 /* boolDaxa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boolDaxa.h; sourceTree = "<group>"; };
+		020B16BB1ED3849500F34E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020B16C21ED385A900F34E18 /* BoolSetIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetIndex.swift; sourceTree = "<group>"; };
+		020B16C31ED385A900F34E18 /* BoolSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSet.swift; sourceTree = "<group>"; };
+		020B16C41ED385A900F34E18 /* BoolSetAlgebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetAlgebra.swift; sourceTree = "<group>"; };
+		020B16C51ED385A900F34E18 /* BoolSetSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetSequence.swift; sourceTree = "<group>"; };
+		020B16C61ED385A900F34E18 /* BoolSetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetCollection.swift; sourceTree = "<group>"; };
+		020B16C71ED385A900F34E18 /* BoolSetIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetIterator.swift; sourceTree = "<group>"; };
+		020B16C81ED385A900F34E18 /* BoolSetSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetSlice.swift; sourceTree = "<group>"; };
+		020B16C91ED385A900F34E18 /* MutableBoolSetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableBoolSetCollection.swift; sourceTree = "<group>"; };
+		020B16CA1ED385A900F34E18 /* BoolSetIndexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetIndexable.swift; sourceTree = "<group>"; };
+		020B16CB1ED385A900F34E18 /* BoolSetIndexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetIndexer.swift; sourceTree = "<group>"; };
+		020B16CC1ED385A900F34E18 /* ExpressibleBySignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressibleBySignedInteger.swift; sourceTree = "<group>"; };
+		020B16CD1ED385A900F34E18 /* BitshiftOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitshiftOperations.swift; sourceTree = "<group>"; };
+		020B16CE1ED385A900F34E18 /* FixedWidthInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedWidthInteger.swift; sourceTree = "<group>"; };
+		020B16E41ED3950E00F34E18 /* boolDaxaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boolDaxaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020B16E81ED3950E00F34E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020B16F01ED3955B00F34E18 /* BoolSetInt8Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolSetInt8Testing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020B16B31ED3849500F34E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020B16E11ED3950E00F34E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B16E91ED3950E00F34E18 /* boolDaxa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020B16AD1ED3849500F34E18 = {
+			isa = PBXGroup;
+			children = (
+				020B16B91ED3849500F34E18 /* boolDaxa */,
+				020B16E51ED3950E00F34E18 /* boolDaxaTests */,
+				020B16B81ED3849500F34E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020B16B81ED3849500F34E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020B16B71ED3849500F34E18 /* boolDaxa.framework */,
+				020B16E41ED3950E00F34E18 /* boolDaxaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020B16B91ED3849500F34E18 /* boolDaxa */ = {
+			isa = PBXGroup;
+			children = (
+				020B16BA1ED3849500F34E18 /* boolDaxa.h */,
+				020B16C21ED385A900F34E18 /* BoolSetIndex.swift */,
+				020B16C31ED385A900F34E18 /* BoolSet.swift */,
+				020B16C41ED385A900F34E18 /* BoolSetAlgebra.swift */,
+				020B16DC1ED385B300F34E18 /* BoolSetCollection */,
+				020B16CA1ED385A900F34E18 /* BoolSetIndexable.swift */,
+				020B16CB1ED385A900F34E18 /* BoolSetIndexer.swift */,
+				020B16DD1ED385BF00F34E18 /* BitManagement */,
+				020B16BB1ED3849500F34E18 /* Info.plist */,
+			);
+			path = boolDaxa;
+			sourceTree = "<group>";
+		};
+		020B16DC1ED385B300F34E18 /* BoolSetCollection */ = {
+			isa = PBXGroup;
+			children = (
+				020B16C51ED385A900F34E18 /* BoolSetSequence.swift */,
+				020B16C61ED385A900F34E18 /* BoolSetCollection.swift */,
+				020B16C71ED385A900F34E18 /* BoolSetIterator.swift */,
+				020B16C81ED385A900F34E18 /* BoolSetSlice.swift */,
+				020B16C91ED385A900F34E18 /* MutableBoolSetCollection.swift */,
+			);
+			name = BoolSetCollection;
+			sourceTree = "<group>";
+		};
+		020B16DD1ED385BF00F34E18 /* BitManagement */ = {
+			isa = PBXGroup;
+			children = (
+				020B16CC1ED385A900F34E18 /* ExpressibleBySignedInteger.swift */,
+				020B16CD1ED385A900F34E18 /* BitshiftOperations.swift */,
+				020B16CE1ED385A900F34E18 /* FixedWidthInteger.swift */,
+			);
+			name = BitManagement;
+			sourceTree = "<group>";
+		};
+		020B16E51ED3950E00F34E18 /* boolDaxaTests */ = {
+			isa = PBXGroup;
+			children = (
+				020B16F01ED3955B00F34E18 /* BoolSetInt8Testing.swift */,
+				020B16E81ED3950E00F34E18 /* Info.plist */,
+			);
+			path = boolDaxaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		020B16B41ED3849500F34E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B16BC1ED3849500F34E18 /* boolDaxa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		020B16B61ED3849500F34E18 /* boolDaxa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020B16BF1ED3849500F34E18 /* Build configuration list for PBXNativeTarget "boolDaxa" */;
+			buildPhases = (
+				020B16B21ED3849500F34E18 /* Sources */,
+				020B16B31ED3849500F34E18 /* Frameworks */,
+				020B16B41ED3849500F34E18 /* Headers */,
+				020B16B51ED3849500F34E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = boolDaxa;
+			productName = boolDaxa;
+			productReference = 020B16B71ED3849500F34E18 /* boolDaxa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		020B16E31ED3950E00F34E18 /* boolDaxaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020B16EC1ED3950E00F34E18 /* Build configuration list for PBXNativeTarget "boolDaxaTests" */;
+			buildPhases = (
+				020B16E01ED3950E00F34E18 /* Sources */,
+				020B16E11ED3950E00F34E18 /* Frameworks */,
+				020B16E21ED3950E00F34E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020B16EB1ED3950E00F34E18 /* PBXTargetDependency */,
+			);
+			name = boolDaxaTests;
+			productName = boolDaxaTests;
+			productReference = 020B16E41ED3950E00F34E18 /* boolDaxaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020B16AE1ED3849500F34E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AndrewMoriarity;
+				TargetAttributes = {
+					020B16B61ED3849500F34E18 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GNKYJ55KYJ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					020B16E31ED3950E00F34E18 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GNKYJ55KYJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 020B16B11ED3849500F34E18 /* Build configuration list for PBXProject "boolDaxa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 020B16AD1ED3849500F34E18;
+			productRefGroup = 020B16B81ED3849500F34E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020B16B61ED3849500F34E18 /* boolDaxa */,
+				020B16E31ED3950E00F34E18 /* boolDaxaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020B16B51ED3849500F34E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020B16E21ED3950E00F34E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020B16B21ED3849500F34E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B16D51ED385A900F34E18 /* BoolSetSlice.swift in Sources */,
+				020B16DB1ED385A900F34E18 /* FixedWidthInteger.swift in Sources */,
+				020B16D01ED385A900F34E18 /* BoolSet.swift in Sources */,
+				020B16D21ED385A900F34E18 /* BoolSetSequence.swift in Sources */,
+				020B16D11ED385A900F34E18 /* BoolSetAlgebra.swift in Sources */,
+				020B16D31ED385A900F34E18 /* BoolSetCollection.swift in Sources */,
+				020B16D41ED385A900F34E18 /* BoolSetIterator.swift in Sources */,
+				020B16DA1ED385A900F34E18 /* BitshiftOperations.swift in Sources */,
+				020B16D91ED385A900F34E18 /* ExpressibleBySignedInteger.swift in Sources */,
+				020B16CF1ED385A900F34E18 /* BoolSetIndex.swift in Sources */,
+				020B16D61ED385A900F34E18 /* MutableBoolSetCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020B16E01ED3950E00F34E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B16FF1ED3D89600F34E18 /* BitshiftOperations.swift in Sources */,
+				020B16F91ED3D88600F34E18 /* BoolSetSlice.swift in Sources */,
+				020B16F71ED3D88100F34E18 /* BoolSetSequence.swift in Sources */,
+				020B16FA1ED3D88800F34E18 /* BoolSetIterator.swift in Sources */,
+				020B16F21ED3955B00F34E18 /* BoolSetInt8Testing.swift in Sources */,
+				020B16F61ED3D87F00F34E18 /* BoolSetAlgebra.swift in Sources */,
+				020B16FB1ED3D88A00F34E18 /* MutableBoolSetCollection.swift in Sources */,
+				020B16F51ED3D87C00F34E18 /* BoolSet.swift in Sources */,
+				020B17011ED3D89B00F34E18 /* FixedWidthInteger.swift in Sources */,
+				020B17001ED3D89900F34E18 /* ExpressibleBySignedInteger.swift in Sources */,
+				020B16F81ED3D88400F34E18 /* BoolSetCollection.swift in Sources */,
+				020B16F41ED3D87A00F34E18 /* BoolSetIndex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020B16EB1ED3950E00F34E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020B16B61ED3849500F34E18 /* boolDaxa */;
+			targetProxy = 020B16EA1ED3950E00F34E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020B16BD1ED3849500F34E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		020B16BE1ED3849500F34E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		020B16C01ED3849500F34E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GNKYJ55KYJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = boolDaxa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewMoriarity.boolDaxa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		020B16C11ED3849500F34E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GNKYJ55KYJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = boolDaxa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewMoriarity.boolDaxa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		020B16ED1ED3950E00F34E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNKYJ55KYJ;
+				INFOPLIST_FILE = boolDaxaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewMoriarity.boolDaxaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		020B16EE1ED3950E00F34E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNKYJ55KYJ;
+				INFOPLIST_FILE = boolDaxaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewMoriarity.boolDaxaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020B16B11ED3849500F34E18 /* Build configuration list for PBXProject "boolDaxa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020B16BD1ED3849500F34E18 /* Debug */,
+				020B16BE1ED3849500F34E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020B16BF1ED3849500F34E18 /* Build configuration list for PBXNativeTarget "boolDaxa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020B16C01ED3849500F34E18 /* Debug */,
+				020B16C11ED3849500F34E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		020B16EC1ED3950E00F34E18 /* Build configuration list for PBXNativeTarget "boolDaxaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020B16ED1ED3950E00F34E18 /* Debug */,
+				020B16EE1ED3950E00F34E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020B16AE1ED3849500F34E18 /* Project object */;
+}

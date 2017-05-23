@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "boolDaxaTests/BoolSetInt8Testing.swift"
+            timestampString = "517208119.181141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "testEquality()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "boolDaxaTests/BoolSetInt8Testing.swift"
+            timestampString = "517259858.781989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "BoolSetTestingCases"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.__deallocating_deinit"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.145232"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.146885"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.148418"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.init (selector : ObjectiveC.Selector) -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.150018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.__allocating_init (selector : ObjectiveC.Selector) -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.151768"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.init () -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.153301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boolDaxaTests.BoolSetTestingCases.__allocating_init () -&gt; boolDaxaTests.BoolSetTestingCases"
+                  moduleName = "boolDaxaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmoriarity/Documents/Daxa/boolDaxa/boolDaxaTests/BoolSetInt8Testing.swift"
+                  timestampString = "517200710.154829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

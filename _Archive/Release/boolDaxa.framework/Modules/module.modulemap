@@ -1,0 +1,10 @@
+framework module boolDaxa {
+  umbrella header "boolDaxa.h"
+
+  export *
+  module * { export * }
+}
+
+module boolDaxa.Swift {
+    header "boolDaxa-Swift.h"
+}
