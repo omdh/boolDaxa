@@ -1,9 +1,5 @@
 # boolDaxa
 
-Boolean set algebra abstractions over bit operations on integer types. 
-
-Synopsis   
---------
 **Caution: This library has yet to be tested in a submission to the Apple App Store, which means 
 caution should be taken in development code.**
 
@@ -79,6 +75,10 @@ var element : Bool = data[3] //data does contain a true at index 3, so will retu
 
 data[3] = false //index 3 is now set to false 
 ```
+Future Goals 
+-------------
+- Better code coverage in testing (currently only limited to set operations), with CustomStringConvertible and CustomDebugStringConvertible conformity for easier debugging. 
+- Custom unlimited width integer type to remove the limit on BoolSet length. Will conform to all BitOperations, with an expected comparison time of O(n/64) on 64 bit machines. 
 
 Installation 
 -------------
